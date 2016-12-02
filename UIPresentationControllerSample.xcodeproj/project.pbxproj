@@ -17,7 +17,7 @@
 		8FA5A5F41DCEEF9C00BD6B6F /* CustomAnimetedTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA5A5F31DCEEF9C00BD6B6F /* CustomAnimetedTransitioning.swift */; };
 		8FA5A5F61DCF0EC200BD6B6F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA5A5F51DCF0EC200BD6B6F /* SecondViewController.swift */; };
 		8FA5A5F81DCF105C00BD6B6F /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA5A5F71DCF105C00BD6B6F /* TableViewController.swift */; };
-		8FA5A5FA1DCF165200BD6B6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FA5A5F91DCF165200BD6B6F /* Main.storyboard */; };
+		8FAC003D1DF0F3E5005EBF27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FAC003C1DF0F3E5005EBF27 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +54,7 @@
 		8FA5A5F31DCEEF9C00BD6B6F /* CustomAnimetedTransitioning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAnimetedTransitioning.swift; sourceTree = "<group>"; };
 		8FA5A5F51DCF0EC200BD6B6F /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		8FA5A5F71DCF105C00BD6B6F /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
-		8FA5A5F91DCF165200BD6B6F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../../../.Trash/Main.storyboard; sourceTree = "<group>"; };
+		8FAC003C1DF0F3E5005EBF27 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,7 +111,7 @@
 				8FA5A5F71DCF105C00BD6B6F /* TableViewController.swift */,
 				8FA5A5F11DCED89900BD6B6F /* CustomPresentationController.swift */,
 				8FA5A5F31DCEEF9C00BD6B6F /* CustomAnimetedTransitioning.swift */,
-				8FA5A5F91DCF165200BD6B6F /* Main.storyboard */,
+				8FAC003C1DF0F3E5005EBF27 /* Main.storyboard */,
 				8FA5A5CA1DCED6C800BD6B6F /* Assets.xcassets */,
 				8FA5A5CC1DCED6C800BD6B6F /* LaunchScreen.storyboard */,
 				8FA5A5CF1DCED6C800BD6B6F /* Info.plist */,
@@ -247,7 +247,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FA5A5FA1DCF165200BD6B6F /* Main.storyboard in Resources */,
+				8FAC003D1DF0F3E5005EBF27 /* Main.storyboard in Resources */,
 				8FA5A5CE1DCED6C800BD6B6F /* LaunchScreen.storyboard in Resources */,
 				8FA5A5CB1DCED6C800BD6B6F /* Assets.xcassets in Resources */,
 			);
@@ -520,6 +520,7 @@
 				8FA5A5EA1DCED6C800BD6B6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8FA5A5EB1DCED6C800BD6B6F /* Build configuration list for PBXNativeTarget "UIPresentationControllerSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +529,7 @@
 				8FA5A5ED1DCED6C800BD6B6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8FA5A5EE1DCED6C800BD6B6F /* Build configuration list for PBXNativeTarget "UIPresentationControllerSampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +538,7 @@
 				8FA5A5F01DCED6C800BD6B6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -19,15 +19,16 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
-    @IBAction func buttonTapped(_ sender: Any) {
+    
+    @IBAction func buttonTapped(_ sender: UIButton) {
         let controller = self.storyboard?.instantiateViewController(withIdentifier: "modal") as? TableViewController
         controller?.modalPresentationStyle = .custom
         controller?.transitioningDelegate = self
         controller?.delegates = self
         self.present(controller!, animated: true, completion: nil)
+
     }
+
 }
 extension ViewController: UIViewControllerTransitioningDelegate {
     func presentationController(forPresented presented: UIViewController, presenting: UIViewController?, source: UIViewController) -> UIPresentationController? {
